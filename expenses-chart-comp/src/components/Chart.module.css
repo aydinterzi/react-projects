@@ -1,0 +1,38 @@
+.container {
+    border-radius: 20px;
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalAmount { 
+    margin-top: -6px;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.monthAmount {
+    font-weight: 700;
+    margin-bottom: -6px;
+}
+
+.month {
+    text-align: end;
+}

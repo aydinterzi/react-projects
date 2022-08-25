@@ -1,0 +1,19 @@
+.container {
+    border-radius: 20px;
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--soft-red);
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.balance {
+    color:white
+}
+
+.balanceAmount {
+    font-size: 25px;
+    font-weight: 700;
+}
+

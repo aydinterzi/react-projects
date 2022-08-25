@@ -1,0 +1,46 @@
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 2;
+    margin-top: 25px;
+}
+
+
+.textPrimary {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.textPrimary p{
+    margin-top:-5px ;
+}
+
+.button {
+    width: 150px;
+    padding: 15px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 14px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+}
+.footerLogos {
+    flex: 1;
+}
+
+.footerLogos img{
+    margin: 40px 10px;
+}

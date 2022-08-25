@@ -1,0 +1,15 @@
+.container {
+    position: absolute;
+    top: 38px;
+    right:1px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    width: 110px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
